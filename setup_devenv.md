@@ -17,6 +17,21 @@ Raspberry Piに接続して操作するために必要です。無線接続キ�
 ### ネットワーク接続環境
 Raspberry Piをインターネットに接続するために必要です。無線LAN環境にも対応しています。
 
+## 初期設定
+### 1. OSのインストール
+Raspbian OS (Raspberry Pi OS)をmicroSDカードにインストールします。詳しい手順は公式サイトや他の解説サイトを参照してください。
+著者が使用しているバージョンは「」になります。
 
+### 2.ロボカー向けリポジトリのクローン
+国内大会MAGP公式のロボカー向けリポジトリをクローンします。ターミナルを開き、以下のコマンドを実行してください
+```bash
+git clone https://github.com/Hiroyuki-Okuda/OpenMiniCarWorks.git
+```
+なお、gitがインストールされていない場合は、以下のコマンドでインストールしてください。
+```bash
+sudo apt-get update
+sudo apt-get install git
+```
+### 3. 必要なライブラリ・ツールのインストール
 
 
