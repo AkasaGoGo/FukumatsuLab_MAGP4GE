@@ -3,7 +3,7 @@
 ## はじめに
 このドキュメントは、九州工業大学工学部電気電子工学科GEコースのテーマの1つであるロボレーサのソフトウェア開発環境構築手順をまとめたものです。
 車体の構築などについては、キットの販売ページをご確認ください。
-[text](https://modeco-ad.jp/jpn/modecar/modecar-tt02-building-set/)
+[販売ページ](https://modeco-ad.jp/jpn/modecar/modecar-tt02-building-set/)
 
 ## 必要なもの
 ### Raspberry Pi 4B
@@ -46,8 +46,9 @@ pip list
 
 ### 4. 公式ドキュメントに記載の動作確認
 ここからは、公式が配布している、各センサデバイスの動作確認ドキュメントに従って進めていただきます。p.7から進めてください。いくつか異なる点・注意すべき点がありますので、記しておきます。
+[動作確認ドキュメント](https://modeco-ad.jp/jpn/wp-content/uploads/2025/01/ADRCCar%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB_v1.04.pdf)
+
 ***執筆中です。各自の環境特有の誤動作・アクシデントがあると思いますが、ぜひご連絡いただけると嬉しいです。***
-[text](https://modeco-ad.jp/jpn/wp-content/uploads/2025/01/ADRCCar%E3%83%9E%E3%83%8B%E3%83%A5%E3%82%A2%E3%83%AB_v1.04.pdf)
 
 
 #### 6.3 カメラのテスト
